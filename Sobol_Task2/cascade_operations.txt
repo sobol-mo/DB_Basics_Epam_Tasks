@@ -4,7 +4,7 @@ FK_payments_operational_accounts_from	-> On Delete: Restrict;		On Update: Cascad
 FK_payments_archive_accounts_to 		-> On Delete: Restrict;		On Update: Cascade
 FK_payments_archive_accounts_from 		-> On Delete: Restrict;		On Update: Cascade
 
-FK_accounts_owners				 		-> On Delete: Set Null;		On Update: Cascade
+FK_accounts_owners				 		-> On Delete: Restrict;		On Update: Cascade
 
 FK_owners_offices						-> On Delete: Set Null;		On Update: Cascade
 
