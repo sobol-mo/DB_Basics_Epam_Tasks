@@ -1,0 +1,17 @@
+FK_payments_operational_accounts_to		-> On Delete: Restrict;		On Update: Cascade
+FK_payments_operational_accounts_from	-> On Delete: Restrict;		On Update: Cascade
+
+FK_payments_archive_accounts_to 		-> On Delete: Restrict;		On Update: Cascade
+FK_payments_archive_accounts_from 		-> On Delete: Restrict;		On Update: Cascade
+
+FK_accounts_owners				 		-> On Delete: Set Null;		On Update: Cascade
+
+FK_owners_offices						-> On Delete: Set Null;		On Update: Cascade
+
+FK_offices_site_pages					-> On Delete: Set Null;		On Update: Cascade
+
+FK_site_pages_site_pages				-> On Delete: No Action;	On Update: No Action
+
+FK_accounts_m2m_statuses_statuses		-> On Delete: Cascade;		On Update: Cascade
+
+FK_accounts_m2m_statuses_accounts		-> On Delete: Cascade;		On Update: Cascade

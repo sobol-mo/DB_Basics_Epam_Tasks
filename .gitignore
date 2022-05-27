@@ -1,3 +1,6 @@
 # igmore all sql files
 
 *.sql
+
+# igmore all temp files
+*.ldb
